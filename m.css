@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+.navbar{
+  align-items: center ;
+  justify-content: space-between ;
+  display: flex;
+}
+ul{
+  display: flex;
+  list-style:none;
+}
+ul li a{
+  text-decoration: none;
+  margin-right :15px;
+}
+h2{
+  padding: 10px;
+  color: white;
+}
+li a:hover{
+  color:#FFBD04
+}
+body{
+  background:url(bg-img.jpg);
+  background-position:center ;
+  width: 100%;
+  height: 100vh ;
+}
+a{
+  color:white ;
+  text-decoration: none ;
+}
+.cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh ;
+}
+.box1{
+  width: 380px ;
+  height: 420px;
+  align-items: center;
+  justify-content: center;
+  display: flex ;
+  background: transparent ;
+   border: 2px solid rgba(255, 255, 255, 0.7);
+   backdrop-filter:blur(15px);
+   border-radius: 15px
+}
+h1{
+  color: white ;
+  text-align: center ;
+}
+.box2{
+  width :310px ;
+  margin: 30px 0;
+  position: relative;
+  border-bottom: 2px solid  #fff;
+}
+.box2 input{
+  background: transparent ;
+  border:none ;
+  color:#fff;
+  width: 100%;
+  height: 50px;
+  padding :0 35px 0 5px;
+}
+input::placeholder {
+  color: #fff;
+}
+label{
+  color: white ;
+}
+.forget a{
+  padding-left :100px;
+}
+button{
+  width: 100%;
+  height: 50px;
+  border-radius :30px;
+}
+button:hover{
+  background-color:#FF14B7
+}
+.remember a{
+  padding-left: 40px
+}
